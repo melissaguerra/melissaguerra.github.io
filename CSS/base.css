@@ -34,6 +34,13 @@ header nav {
     margin-top: 12px;
 }
 
+#content{
+    background-color:gray;
+    border: 1px solid red;
+    margin-left: 35%;
+    width: 65%
+}
+
 a {
     color: #aaaaaa;
 }
