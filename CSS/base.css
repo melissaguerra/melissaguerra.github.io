@@ -1,7 +1,23 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin:0;
     padding:0;
+}
+
+img{
+    width: 100%;
+}
+
+
+.wrapper{
+    margin: 0 auto;
+    max-width:960px;
+}
+
+.third{
+    float:left;
+    width: 33%;
+    
 }
 
 body {
@@ -28,20 +44,14 @@ p {
     margin: 4px 0 16px 5;
 }
 
-img {
-    border: 5p solid #cccccc;
-    width: 60%;
-    margin: 5 10 5 10;
-   
-}
-
 
 header {
  background-color: #686868;
  color: #99CCFF;
  height: 50px;
-    
+ margin-bottom: 10px;   
 }
+
 header h1 {
     float: left;
     font-family: georgia, serif;
@@ -58,6 +68,7 @@ header nav {
     color: #000000;
     font-family: georgia, serif;
     font-size: 16px;
+    display:inline-block;
 }
 
 #content{
@@ -72,7 +83,7 @@ a {
 }
 
 header a{
-    color: #aaaaaa;
+    color:#aaaaaa;
     margin-right: 20px;
     text-decoration:none;
 }
@@ -110,8 +121,13 @@ aside{
 
 footer {
     clear: both;
+    background-color:#aaaaaa;
     font-size: 12px;
     padding: 0 10px 0 10px;
+}
+
+footer ul{
+    list-style-type: none;
 }
 
 @media screen (max-width: 600px) {
