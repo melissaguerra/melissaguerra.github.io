@@ -5,9 +5,22 @@
 }
 
 body {
-    font-family: georgia, serif;
-    font-size: 16px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
     line-height: 24px;
+}
+
+body h1{
+    color: #99CCFF;
+    font-family: georgia, serif;
+    font-size:36px;
+    margin: 10px 0 3px 0;
+}
+
+body h2{
+    color: #686868;
+    font-family: arial narrow, sans-serif;
+    
 }
 
 p {
@@ -16,22 +29,27 @@ p {
 
 
 header {
- background-color: #000000;
- color: #ffffff;
- height: 45px;
+ background-color: #686868;
+ color: #99CCFF;
+ height: 50px;
     
 }
 header h1 {
     float: left;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 22px;
+    font-family: georgia, serif;
+    margin-top: 2px;
+    color: #99CCFF;
+    font-size: 25px;
     font-weight:400;
     padding: 10px;
 }
 
 header nav {
     float: left;
-    margin-top: 12px;
+    margin-top: 15px;
+    color: #000000;
+    font-family: georgia, serif;
+    font-size: 16px;
 }
 
 #content{
@@ -67,7 +85,6 @@ article {
 article h1 {
     font-size: 36px
     line-height: 44px;
-    margin-top: 4px;
 }
 
 article h2{
@@ -79,7 +96,7 @@ article h2{
 
 aside{
     float: left;
-    margin-right: 5%;
+    margin-right: 4%;
     
 }
 
@@ -94,6 +111,10 @@ footer {
     body{
         padding: 3%;
         
+    }
+    
+    h1,h2 {
+        text-align: center
     }
     
     nav{
