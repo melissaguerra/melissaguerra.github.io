@@ -6,8 +6,9 @@
 
 body {
     font-family: arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
+    margin-left: 3px;
 }
 
 body h1{
@@ -24,7 +25,14 @@ body h2{
 }
 
 p {
-    margin-bottom: 16px;
+    margin: 4px 0 16px 5;
+}
+
+img {
+    border: 5p solid #cccccc;
+    width: 60%;
+    margin: 5 10 5 10;
+   
 }
 
 
@@ -96,7 +104,7 @@ article h2{
 
 aside{
     float: left;
-    margin-right: 4%;
+    margin-right: 3%;
     
 }
 
