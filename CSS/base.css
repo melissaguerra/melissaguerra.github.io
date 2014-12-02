@@ -155,11 +155,12 @@ footer ul{
     }
     
     h1,h2 {
-        text-align: center
+        text-align: center;
     }
     
     nav{
         width: 100%;
+        color: #000000;
        
     }
     
