@@ -104,13 +104,12 @@ header a:active {
 }
 
 article {
-    clear: both;
     padding: 0 10px 0 10px;
 }
 
 
 article h1 {
-    font-size: 36px
+    font-size: 36px;
     line-height: 44px;
 }
 
@@ -123,7 +122,7 @@ article h2{
 
 aside{
     float: left;
-    margin-right: 3%;
+    margin-right: 1%;
     
 }
 
