@@ -30,6 +30,14 @@ img{
     padding: 5px;
 }
 
+.resume{
+    width: 30%;
+}
+
+.bannerfull{
+    width: 70%
+}
+
 body {
     font-family: arial, sans-serif;
     font-size: 14px;
@@ -123,6 +131,9 @@ article h2{
     text-align: left;
 }
 
+article a:hover{
+    color: #000000;
+}
 
 aside{
     float: left;
